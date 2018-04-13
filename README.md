@@ -3,9 +3,9 @@ Binary nmap file which is working in Lambda environment.
 
 If you want to build your own NMAP for Lambda, then run following commands in Amazon Linux instance:
 
+```bash
 sudo yum install git gcc gcc-c++ glibc-static pcre-static
 
-```bash
 cd /tmp
 git clone https://github.com/nmap/nmap.git
 cd nmap
